@@ -2,8 +2,8 @@
 <html>
     <head lang="en-ca">
         <meta charset="UTF-8">
-        <link rel="'stylesheet" type="text/css" href="Resources/styles.css">
-        <script src="Resources/script.js" async></script>
+        <link rel="stylesheet" type="text/css" href="Resources/CSS/styles.css">
+        <script src="Resources/JS/script.js" async></script>
         <title>Portfolio // Martin Field</title>
     </head>
     <body>
@@ -12,6 +12,9 @@
 
             </div>
             <nav class="menu-nav">
+                <div>
+                    <img class="logo" src="Resources/images/m-logo.png">
+                </div>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -22,24 +25,35 @@
         </menu>
         
         <main>
-            <div id="home">
-                <h1>Hi, my name is Martin.</h1>
-                <p>I'm based in Vancouver and a Chef by trade. I'm currently enrolled in Codecademy's Full-Stack Engineering Course. </p>
+            <div class="home" id="home">
                 <div class="selfie-container">
-                    <img class="'selfie" src="Resources/images/profilevector.png" alt="profile of me">
+                    <img class="selfie" src="Resources/images/profilevector.png" alt="profile of me">
                 </div>
-                
+                <h1>Hi, my name is Martin.</h1>
+                <p>I'm based in Vancouver and I'm currently enrolled in Codecademy's Full-Stack Engineering Course. </p>
             </div>
-            <div id="projects">
+            <div class="projects" id="projects">
                 <h2>Projects</h2>
-                <div class="project-one"></div>
-                <div class="project-two"></div>
-                <div class="project-three"></div>
+                <div class="project-one">
+                    <img src="Resources/images/yvr-collective.png" alt="Y.V.R-music-collective frontpage">
+                    <h3>Responsive Club Website</h3>
+                    <p>A challenge project focusing on responsive web design to create a club group page. </p>
+                </div>
+                <div class="project-two">
+                    <img src="Resources/images/mosiac-artist-group.png" alt="graphic artist front page">
+                    <h3>Company Homepage with Flexbox</h3>
+                    <p>A practice project focusing on using flexbox to design and build the layout for a company homepage.</p>
+                </div>
+                <div class="project-three">
+                    <img src="Resources/images/mixed-messages-app.png" alt="mixed messages javascript app">
+                    <h3>Mixed Messages Javascript App</h3>
+                    <p>A portfolio project focusing on creating a message generator in Javascript (and implementing version control wih Git) that provides a new, randomized message. </p>
+                </div>
             </div>
-            <div id="skills">
+            <div class="skills" id="skills">
                 <h2>Skills</h2>
             </div>
-            <div id="contact">
+            <div class="contact" id="contact">
                 <h2>Contacts</h2>
             </div>
         </main>
